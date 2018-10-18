@@ -10,7 +10,7 @@
     <a asp-action="Create">Create New</a>
 </p>
 
-<form asp-action="Index" asp-controller="Movies">
+<form asp-action="Index" asp-controller="Movies" method="get">
     <p>
         Title: <input type="text" name="SearchString" />
         <input type="submit" value="Filter" />
